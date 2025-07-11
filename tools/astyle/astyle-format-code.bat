@@ -1,0 +1,24 @@
+.\astyle.exe ^
+    ..\..\qemu-v0.1.6\*.c ^
+    ..\..\qemu-v0.1.6\*.h ^
+    ..\..\qemu-v0.1.6\linux-user\*.c ^
+    ..\..\qemu-v0.1.6\linux-user\*.h ^
+    ..\..\qemu-v0.1.6\tests\*.c ^
+    ..\..\qemu-v0.1.6\tests\*.h ^
+    -n ^
+    --style=bsd ^
+    --attach-namespaces ^
+    --attach-classes ^
+    --attach-inlines ^
+    --attach-extern-c ^
+    --pad-oper ^
+    --unpad-paren ^
+    --pad-header ^
+    --align-pointer=name ^
+    --keep-one-line-blocks ^
+    --keep-one-line-statements ^
+    --break-return-type ^
+    --close-templates ^
+    --max-code-length=80 ^
+    --break-after-logical ^
+    --break-blocks=all
