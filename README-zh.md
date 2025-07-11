@@ -55,7 +55,7 @@ LIBS+=-pthread -lgthread-2.0 -pthread -lglib-2.0 -lrt
 ```
 /usr/bin/ld: ../libhw64/9pfs/virtio-9p.o: in function `stat_to_v9stat':
 /xxx/qemu-1.0.1/hw/9pfs/virtio-9p.c:1029: undefined reference to `minor'
-/usr/bin/ld: /home/we/learn-qemu/qemu-1.0.1/hw/9pfs/virtio-9p.c:1029: undefined reference to `major'
+/usr/bin/ld: /xxx/qemu-1.0.1/hw/9pfs/virtio-9p.c:1029: undefined reference to `major'
 /usr/bin/ld: ../libhw64/9pfs/virtio-9p.o: in function `v9fs_create':
 /xxx/qemu-1.0.1/hw/9pfs/virtio-9p.c:2225: undefined reference to `makedev'
 /usr/bin/ld: ../libhw64/9pfs/virtio-9p.o: in function `v9fs_mknod':
@@ -69,6 +69,11 @@ make: *** [Makefile:89: subdir-x86_64-softmmu] Error 2
 #include <glib.h>
 #include <glib/gprintf.h>
 #include <sys/sysmacros.h>
+```
+### 4.4 启动qemu linux镜像
+- qemu linux镜像在`bin`目录下
+```
+./qemu-system-x86_64 -m 4096 -hda /xxx/linux-0.2.img
 ```
 
 ## 5. QEMU版本下载
