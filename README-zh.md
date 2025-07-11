@@ -55,7 +55,7 @@ LIBS+=-pthread -lgthread-2.0 -pthread -lglib-2.0 -lrt
 ```
 /usr/bin/ld: ../libhw64/9pfs/virtio-9p.o: in function `stat_to_v9stat':
 /xxx/qemu-1.0.1/hw/9pfs/virtio-9p.c:1029: undefined reference to `minor'
-/usr/bin/ld: /home/we/learn-qemu/qemu-1.0.1/hw/9pfs/virtio-9p.c:1029: undefined reference to `major'
+/usr/bin/ld: /xxx/qemu-1.0.1/hw/9pfs/virtio-9p.c:1029: undefined reference to `major'
 /usr/bin/ld: ../libhw64/9pfs/virtio-9p.o: in function `v9fs_create':
 /xxx/qemu-1.0.1/hw/9pfs/virtio-9p.c:2225: undefined reference to `makedev'
 /usr/bin/ld: ../libhw64/9pfs/virtio-9p.o: in function `v9fs_mknod':
