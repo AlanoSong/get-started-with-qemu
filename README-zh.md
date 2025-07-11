@@ -70,6 +70,11 @@ make: *** [Makefile:89: subdir-x86_64-softmmu] Error 2
 #include <glib/gprintf.h>
 #include <sys/sysmacros.h>
 ```
+### 4.4 启动qemu linux镜像
+- qemu linux镜像在`bin`目录下
+```
+./qemu-system-x86_64 -m 4096 -hda /xxx/linux-0.2.img
+```
 
 ## 5. QEMU版本下载
 - https://download.qemu.org/
