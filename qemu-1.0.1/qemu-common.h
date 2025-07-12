@@ -24,19 +24,31 @@ typedef struct Monitor Monitor;
 #include <stdarg.h>
 #include <stdbool.h>
 #include <string.h>
+// Alano
+#ifndef _WIN32
 #include <strings.h>
+#endif
 #include <inttypes.h>
 #include <limits.h>
 #include <time.h>
 #include <ctype.h>
 #include <errno.h>
+// Alano
+#ifndef _WIN32
 #include <unistd.h>
+#endif
 #include <fcntl.h>
 #include <sys/stat.h>
+// Alano
+#ifndef _WIN32
 #include <sys/time.h>
+#endif
 #include <assert.h>
 #include <signal.h>
+// Alano
+#ifndef _WIN32
 #include <glib.h>
+#endif
 
 #ifdef _WIN32
 #include "qemu-os-win32.h"
@@ -76,7 +88,10 @@ struct iovec {
  */
 #define IOV_MAX		1024
 #else
+// Alano
+#ifndef _WIN32
 #include <sys/uio.h>
+#endif
 #endif
 
 typedef int (*fprintf_function)(FILE *f, const char *fmt, ...)
@@ -171,8 +186,16 @@ const char *path(const char *pathname);
 void *qemu_oom_check(void *ptr);
 
 int qemu_open(const char *name, int flags, ...);
-ssize_t qemu_write_full(int fd, const void *buf, size_t count)
+
+// Alano
+#ifdef _WIN32
+SSIZE_T
+#else
+ssize_t
+#endif
+qemu_write_full(int fd, const void *buf, size_t count)
     QEMU_WARN_UNUSED_RESULT;
+
 void qemu_set_cloexec(int fd);
 
 #ifndef _WIN32
@@ -187,8 +210,10 @@ int qemu_pipe(int pipefd[2]);
 #endif
 
 /* Error handling.  */
-
+// Alano
+#ifndef _WIN32
 void QEMU_NORETURN hw_error(const char *fmt, ...) GCC_FMT_ATTR(1, 2);
+#endif
 
 struct ParallelIOArg {
     void *buffer;

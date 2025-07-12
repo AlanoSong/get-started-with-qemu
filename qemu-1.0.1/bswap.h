@@ -13,7 +13,10 @@
 #else
 
 #ifdef CONFIG_BYTESWAP_H
+// Alano
+#ifndef _WIN32
 #include <byteswap.h>
+#endif
 #else
 
 #define bswap_16(x) \

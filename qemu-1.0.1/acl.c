@@ -27,7 +27,10 @@
 #include "acl.h"
 
 #ifdef CONFIG_FNMATCH
+// Alano
+#ifndef _WIN32
 #include <fnmatch.h>
+#endif
 #endif
 
 

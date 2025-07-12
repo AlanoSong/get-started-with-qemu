@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\qemu-1.0.1\a.out.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\acl.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\aes.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\arch_init.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\balloon.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\bitmap.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\bitops.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\block.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\block_int.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\blockdev.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\block-migration.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\bswap.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\bt-host.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\buffered_file.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\cache-utils.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\cmd.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\compatfd.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\compiler.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\config.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\console.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\cpu-all.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\cpu-common.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\cpu-defs.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\cpus.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\def-helper.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\device_tree.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\disas.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\dis-asm.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\dma.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\dyngen-exec.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\elf.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\envlist.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\error.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\error_int.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\event_notifier.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\exec-all.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\exec-memory.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\gdbstub.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\gen-icount.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\hmp.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\host-utils.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\int128.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\ioport.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\iorange.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\iov.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\json-lexer.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\json-parser.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\json-streamer.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\kvm.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\libfdt_env.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\main-loop.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\memory.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\migration.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\module.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\monitor.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\nbd.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\net.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\notify.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\osdep.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\pflib.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\poison.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qbool.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qdict.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu_socket.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-aio.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-barrier.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-char.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-common.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-config.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-coroutine.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-coroutine-int.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-error.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-lock.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-log.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-objects.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-option.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-options.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-os-posix.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-os-win32.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-queue.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-thread.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-thread-posix.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-thread-win32.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-timer.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-tls.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-x509.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qemu-xattr.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qerror.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qfloat.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qint.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qjson.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qlist.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qobject.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\qstring.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\range.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\readline.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\softmmu_defs.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\softmmu_exec.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\softmmu_header.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\softmmu_template.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\softmmu-semi.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\sysemu.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\targphys.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\thunk.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\uboot_image.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\vgafont.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\xen-mapcache.h" />
+    <ClInclude Include="..\..\qemu-1.0.1\fpu\softfloat.h">
+      <Filter>fpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qemu-1.0.1\fpu\softfloat-macros.h">
+      <Filter>fpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qemu-1.0.1\fpu\softfloat-specialize.h">
+      <Filter>fpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qemu-1.0.1\target-i386\cpu.h">
+      <Filter>target-i386</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qemu-1.0.1\target-i386\helper.h">
+      <Filter>target-i386</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qemu-1.0.1\target-i386\helper_template.h">
+      <Filter>target-i386</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qemu-1.0.1\target-i386\ops_sse.h">
+      <Filter>target-i386</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qemu-1.0.1\target-i386\ops_sse_header.h">
+      <Filter>target-i386</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qemu-1.0.1\target-i386\svm.h">
+      <Filter>target-i386</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\qemu-1.0.1\acl.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\aes.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\aio.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\alpha-dis.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\arch_init.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\arm-dis.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\arm-semi.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\async.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\balloon.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\bitmap.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\bitops.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\block.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\blockdev.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\block-migration.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\bt-host.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\bt-vhci.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\buffered_file.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\cache-utils.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\check-qdict.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\check-qfloat.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\check-qint.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\check-qjson.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\check-qlist.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\check-qstring.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\cmd.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\compatfd.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\console.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\coroutine-gthread.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\coroutine-ucontext.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\coroutine-win32.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\cpu-exec.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\cpus.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\cris-dis.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\cursor.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\cutils.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\device_tree.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\disas.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\dma-helpers.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\envlist.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\error.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\event_notifier.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\exec.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\gdbstub.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\hmp.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\host-utils.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\hppa-dis.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\i386-dis.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\ia64-dis.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\input.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\iohandler.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\ioport.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\ioport-user.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\iov.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\json-lexer.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\json-parser.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\json-streamer.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\kvm-all.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\kvm-stub.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\linux-aio.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\m68k-dis.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\m68k-semi.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\main-loop.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\memory.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\microblaze-dis.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\migration.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\migration-exec.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\migration-fd.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\migration-tcp.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\migration-unix.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\mips-dis.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\module.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\monitor.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\nbd.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\net.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\notify.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\osdep.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\oslib-posix.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\oslib-win32.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\os-posix.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\os-win32.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\path.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\pflib.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\posix-aio-compat.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\ppc-dis.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qbool.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qdict.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qemu-char.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qemu-config.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qemu-coroutine.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qemu-coroutine-lock.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qemu-error.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qemu-ga.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qemu-img.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qemu-io.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qemu-nbd.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qemu-option.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qemu-progress.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qemu-sockets.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qemu-thread-posix.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qemu-thread-win32.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qemu-timer.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qemu-timer-common.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qemu-tool.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qerror.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qfloat.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qint.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qjson.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qlist.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qmp.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\qstring.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\readline.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\s390-dis.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\savevm.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\sh4-dis.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\sparc-dis.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\spice-qemu-char.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\tcg-runtime.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\tci.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\tci-dis.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\test-coroutine.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\test-qmp-commands.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\test-visitor.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\thunk.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\translate-all.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\usb-bsd.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\usb-linux.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\usb-redir.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\usb-stub.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\user-exec.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\vl.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\xen-all.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\xen-mapcache.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\xen-stub.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\xtensa-semi.c" />
+    <ClCompile Include="..\..\qemu-1.0.1\fpu\softfloat.c">
+      <Filter>fpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qemu-1.0.1\target-i386\cpuid.c">
+      <Filter>target-i386</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qemu-1.0.1\target-i386\helper.c">
+      <Filter>target-i386</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qemu-1.0.1\target-i386\kvm.c">
+      <Filter>target-i386</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qemu-1.0.1\target-i386\machine.c">
+      <Filter>target-i386</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qemu-1.0.1\target-i386\op_helper.c">
+      <Filter>target-i386</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qemu-1.0.1\target-i386\translate.c">
+      <Filter>target-i386</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="fpu">
+      <UniqueIdentifier>{be505453-5178-47ee-8cb6-a1ff22f26d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="target-i386">
+      <UniqueIdentifier>{d52d0701-d4e1-4fed-9cee-ad934a3c3505}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

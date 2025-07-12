@@ -390,5 +390,8 @@ int usb_device_delete_addr(int busnr, int addr);
 
 static inline USBBus *usb_bus_from_device(USBDevice *d)
 {
+    // Alano
+#ifndef _WIN32
     return DO_UPCAST(USBBus, qbus, d->qdev.parent_bus);
+#endif
 }

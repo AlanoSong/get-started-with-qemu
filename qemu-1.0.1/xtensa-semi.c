@@ -26,12 +26,18 @@
  */
 
 #include <errno.h>
+// Alano
+#ifndef _WIN32
 #include <unistd.h>
+#endif
 #include <string.h>
 #include <stddef.h>
 #include "cpu.h"
 #include "dyngen-exec.h"
+// Alano
+#ifndef _WIN32
 #include "helpers.h"
+#endif
 #include "qemu-log.h"
 
 enum {

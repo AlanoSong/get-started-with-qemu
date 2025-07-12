@@ -173,7 +173,14 @@ static void qemu_init_child_watch(void)
     sigaction(SIGCHLD, &act, NULL);
 }
 
-int qemu_add_child_watch(pid_t pid)
+int qemu_add_child_watch(
+// Alano
+#ifdef _WIN32
+    ULONG
+#else
+    pid_t
+#endif
+    pid)
 {
     ChildProcessRecord *rec;
 

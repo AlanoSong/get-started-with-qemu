@@ -8,7 +8,10 @@
 #include <sys/signal.h>
 #endif
 
+// Alano
+#ifndef _WIN32
 #include <sys/time.h>
+#endif
 
 #ifndef glue
 #define xglue(x, y) x ## y

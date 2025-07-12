@@ -312,7 +312,14 @@ void qemu_bh_delete(QEMUBH *bh);
  *
  * @pid: The pid that QEMU should observe.
  */
-int qemu_add_child_watch(pid_t pid);
+int qemu_add_child_watch(
+// Alano
+#ifdef _WIN32
+    ULONG
+#else
+    pid_t
+#endif
+    pid);
 #endif
 
 /**

@@ -30,9 +30,12 @@ void xen_cmos_set_s3_resume(void *opaque, int irq, int level)
 {
 }
 
+// Alano
+#ifndef _WIN32
 void xen_ram_alloc(ram_addr_t ram_addr, ram_addr_t size)
 {
 }
+#endif
 
 qemu_irq *xen_interrupt_controller_init(void)
 {

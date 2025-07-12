@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qemu-1.0.1", "qemu-1.0.1.vcxproj", "{C7F234A7-E5AF-4BAD-B286-6B6E3B8A066B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7F234A7-E5AF-4BAD-B286-6B6E3B8A066B}.Debug|x64.ActiveCfg = Debug|x64
+		{C7F234A7-E5AF-4BAD-B286-6B6E3B8A066B}.Debug|x64.Build.0 = Debug|x64
+		{C7F234A7-E5AF-4BAD-B286-6B6E3B8A066B}.Debug|x86.ActiveCfg = Debug|Win32
+		{C7F234A7-E5AF-4BAD-B286-6B6E3B8A066B}.Debug|x86.Build.0 = Debug|Win32
+		{C7F234A7-E5AF-4BAD-B286-6B6E3B8A066B}.Release|x64.ActiveCfg = Release|x64
+		{C7F234A7-E5AF-4BAD-B286-6B6E3B8A066B}.Release|x64.Build.0 = Release|x64
+		{C7F234A7-E5AF-4BAD-B286-6B6E3B8A066B}.Release|x86.ActiveCfg = Release|Win32
+		{C7F234A7-E5AF-4BAD-B286-6B6E3B8A066B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6A6E012-A7E9-46A6-8486-FF8F7F05A26B}
+	EndGlobalSection
+EndGlobal
