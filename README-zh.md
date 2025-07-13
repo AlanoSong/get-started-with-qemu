@@ -47,7 +47,7 @@ collect2: error: ld returned 1 exit status
 make[1]: *** [Makefile:417: qemu-system-x86_64] Error 1
 make: *** [Makefile:89: subdir-x86_64-softmmu] Error 2
 ```
-- 在`config-host.mk`添加链接库`-lrt`
+- 在`config-host.mak`添加链接库`-lrt`
 ```
 LIBS+=-pthread -lgthread-2.0 -pthread -lglib-2.0 -lrt
 ```
